@@ -24,3 +24,12 @@ a:active, a:visited {
 ul {
     list-style: none;
 }
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
