@@ -32,8 +32,11 @@ ul {
 }
 
 .container {
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
 /* -------------------------- Particulars ----------------------- */
+header {
+    justify-content: space-between;
+}
