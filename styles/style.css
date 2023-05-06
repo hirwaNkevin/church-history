@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #339933;
+    --secondary-color: #1d541d;
+}
+
 body {
     font-family: "Montserrat", system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
@@ -5,4 +10,17 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display",  Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:active, a:visited {
+    color: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
 }
