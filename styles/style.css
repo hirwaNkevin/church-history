@@ -3,6 +3,8 @@
     --secondary-color: #1d541d;
 }
 
+/* ----------------------- Globals ------------------------- */
+
 body {
     font-family: "Montserrat", system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
@@ -33,3 +35,5 @@ ul {
     width: 75%;
     margin: auto;
 }
+
+/* -------------------------- Particulars ----------------------- */
