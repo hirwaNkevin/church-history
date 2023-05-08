@@ -40,6 +40,11 @@ ul {
 /* -------------------------- Particulars ----------------------- */
 header {
     position: fixed;
+    width: 100%;
+}
+
+header .container {
+    border: 1px solid #339933;
 }
 
 nav {
@@ -47,6 +52,7 @@ nav {
 }
 
 nav ul{
+    margin-left: auto;
     width: 100%;
     justify-content: space-around;
 }
