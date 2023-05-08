@@ -47,6 +47,12 @@ nav {
     margin: auto;
 }
 
+nav a,
+nav a:visited
+ {
+    color: var(--primary-color);
+}
+
 nav ul{
     margin-left: auto;
     width: 100%;
@@ -56,4 +62,18 @@ nav ul{
 nav ul li {
     margin-left: 1em;
     margin-right: 1em;
+}
+
+#banner {
+    min-height: 100vh;
+    background-image: url("../images/martin-luther-germany-reformation-protestant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 500px 100px #000;
+    margin: 0%;
+}
+
+#banner h2 {
+    margin: 0%;
 }
