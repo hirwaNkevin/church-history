@@ -38,6 +38,7 @@ ul {
 
 /* -------------------------- Particulars ----------------------- */
 header {
+    position: fixed;
 }
 
 nav {
