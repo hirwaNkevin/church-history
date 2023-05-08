@@ -43,10 +43,6 @@ header {
     width: 100%;
 }
 
-header .container {
-    border: 1px solid #339933;
-}
-
 nav {
     margin: auto;
 }
@@ -55,4 +51,9 @@ nav ul{
     margin-left: auto;
     width: 100%;
     justify-content: space-around;
+}
+
+nav ul li {
+    margin-left: 1em;
+    margin-right: 1em;
 }
