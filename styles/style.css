@@ -38,5 +38,13 @@ ul {
 
 /* -------------------------- Particulars ----------------------- */
 header {
-    justify-content: space-between;
+}
+
+nav {
+    margin: auto;
+}
+
+nav ul{
+    width: 100%;
+    justify-content: space-around;
 }
