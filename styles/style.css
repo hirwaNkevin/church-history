@@ -36,6 +36,10 @@ ul {
     margin: auto;
 }
 
+main section  {
+    padding-top: 50px;
+}
+
 /* -------------------------- Particulars ----------------------- */
 header {
     position: fixed;
@@ -74,7 +78,7 @@ nav ul li {
 /* ----------------------- start of banner -------------------------- */
 
 #banner {
-    min-height: 100vh;
+    min-height: 95vh;
     background-image: url("../images/martin-luther-germany-reformation-protestant.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -100,5 +104,13 @@ nav ul li {
 /* --------------------------- start of early church ------------------------- */
 
 #early-church {
-    padding: 50px 0px;
+    height: 50vh;
+    align-items: center;
+}
+
+#early-church div {
+    text-align: right;
+    width: 50%;
+    margin-left: auto;
+    font-size: large;    
 }
