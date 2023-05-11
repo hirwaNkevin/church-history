@@ -71,6 +71,8 @@ nav ul li {
     font-weight: bold;
 }
 
+/* ----------------------- start of banner -------------------------- */
+
 #banner {
     min-height: 100vh;
     background-image: url("../images/martin-luther-germany-reformation-protestant.jpg");
@@ -92,4 +94,11 @@ nav ul li {
     margin-left: auto;
     font-size: x-large;
     text-shadow: 0px 0px 10px #339933;
+}
+/* --------------------------- end of banner -------------------------------- */
+
+/* --------------------------- start of early church ------------------------- */
+
+#early-church {
+    padding: 50px 0px;
 }
