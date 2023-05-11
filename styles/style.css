@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #339933;
-    --secondary-color: #1d541d;
+    --secondary-color: #339933;
+    --primary-color: #1d541d;
 }
 
 /* ----------------------- Globals ------------------------- */
@@ -9,10 +9,13 @@ body {
     font-family: "Montserrat", system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     margin: 0px;
+    /* background-color: #010;
+    color: #fff; */
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display",  Georgia, 'Times New Roman', Times, serif;
+    color: var(--primary-color);
 }
 
 a {
@@ -49,7 +52,7 @@ header {
 }
 
 h1>a{
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
 }
 
 nav {
@@ -90,6 +93,7 @@ nav ul li {
 
 #banner h2 {
     margin: 0%;
+    color: #fff;
 }
 
 #banner div {
@@ -97,7 +101,7 @@ nav ul li {
     width: 45%;
     margin-left: auto;
     font-size: x-large;
-    text-shadow: 0px 0px 10px #339933;
+    text-shadow: 0px 0px 10px var(--secondary-color);
 }
 /* --------------------------- end of banner -------------------------------- */
 
