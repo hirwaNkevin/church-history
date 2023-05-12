@@ -81,7 +81,8 @@ nav {
 }
 
 nav a,
-nav a:visited
+nav a:visited,
+nav a:focus
  {
     color: #fff;
 }
