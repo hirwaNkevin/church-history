@@ -41,6 +41,27 @@ ul {
 
 main section  {
     padding-top: 50px;
+    height: 65vh;
+    align-items: center;
+}
+
+.section-content-right {
+    text-align: right;
+    width: 50%;
+    margin-left: auto;
+    font-size: large;    
+}
+
+.section-content-left {
+    text-align: left;
+    width: 50%;
+    margin-right: auto;
+    font-size: large;    
+}
+
+.section-img {
+    max-width: 45%;
+    margin: auto;
 }
 
 /* -------------------------- Particulars ----------------------- */
@@ -105,16 +126,5 @@ nav ul li {
 }
 /* --------------------------- end of banner -------------------------------- */
 
-/* --------------------------- start of early church ------------------------- */
+/* --------------------------- start of middle ages ------------------------- */
 
-#early-church {
-    height: 50vh;
-    align-items: center;
-}
-
-#early-church div {
-    text-align: right;
-    width: 50%;
-    margin-left: auto;
-    font-size: large;    
-}
