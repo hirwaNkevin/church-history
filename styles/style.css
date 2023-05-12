@@ -128,3 +128,38 @@ nav ul li {
 
 /* --------------------------- start of middle ages ------------------------- */
 
+/* --------------------------- start of footer ------------------------------ */
+
+footer {
+    background-color: #051605;
+}
+
+footer #footer-container {
+    justify-content: space-between;
+    padding: 50px;
+    width: 75%;
+}
+
+footer h3 {
+    color: #f2f2f2;
+}
+
+#footer-container a {
+    color: var(--secondary-color);
+    font-size: small;
+}
+
+#footer-container a:hover,
+#footer-container a:active,
+#footer-container a:focus
+ {
+    text-decoration: underline;
+}
+
+#copyright-section {
+    background-color: #030f03;
+    color: #f2f2f2;
+    font-size: smaller;
+    padding: 1.5em;
+    text-align: center;
+}
