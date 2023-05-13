@@ -21,3 +21,21 @@ nav a:visited
     align-items: center;
     justify-content: space-between;
 }
+
+figure img {
+    max-width: 75%;
+}
+
+figure {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#body {
+    margin: 4em auto;
+}
+
+#body p {
+    font-size: large;
+    text-align: justify;
+}
