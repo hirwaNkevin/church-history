@@ -146,7 +146,7 @@ footer h3 {
 }
 
 #footer-container a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: small;
 }
 
@@ -154,6 +154,7 @@ footer h3 {
 #footer-container a:active,
 #footer-container a:focus
  {
+    color: var(--secondary-color);
     text-decoration: underline;
 }
 
