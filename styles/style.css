@@ -1,43 +1,4 @@
-:root {
-    --secondary-color: #339933;
-    --primary-color: #1d541d;
-}
-
-/* ----------------------- Globals ------------------------- */
-
-body {
-    font-family: "Montserrat", system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    margin: 0px;
-    /* background-color: #010;
-    color: #fff; */
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Playfair Display",  Georgia, 'Times New Roman', Times, serif;
-    color: var(--primary-color);
-}
-
-a {
-    text-decoration: none;
-}
-
-a:active, a:visited {
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
-.flex {
-    display: flex;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
-}
+@import 'global';
 
 main section  {
     padding-top: 50px;
@@ -70,14 +31,6 @@ header {
     width: 100%;
     background-color: #0107;
     /* box-shadow: inset 0px 30px 50px 20px #0107; */
-}
-
-h1>a{
-    color: var(--secondary-color) !important;
-}
-
-nav {
-    margin: auto;
 }
 
 nav a,
@@ -128,40 +81,3 @@ nav ul li {
 /* --------------------------- end of banner -------------------------------- */
 
 /* --------------------------- start of middle ages ------------------------- */
-
-/* --------------------------- start of footer ------------------------------ */
-
-footer {
-    background-color: #051605;
-}
-
-footer #footer-container {
-    justify-content: space-between;
-    padding: 50px;
-    width: 75%;
-}
-
-footer h3 {
-    color: #f2f2f2;
-}
-
-#footer-container a {
-    color: var(--primary-color);
-    font-size: small;
-}
-
-#footer-container a:hover,
-#footer-container a:active,
-#footer-container a:focus
- {
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
-#copyright-section {
-    background-color: #030f03;
-    color: #f2f2f2;
-    font-size: smaller;
-    padding: 1.5em;
-    text-align: center;
-}
